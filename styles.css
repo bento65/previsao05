@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://wallpapers.com/images/hd/1600x900-pictures-2fi8ciqrpu8d6qfz.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.caixa-maior {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.cabecalho {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    text-align: center; 
+    border-radius: 10px;
+}
+
+.data-hora {
+    display: block; /* Garante que cada item aparece em linha separada */
+    font-weight: 300;
+
+}
+
+.desenvolvedor {
+    margin-top: 10px;
+}
+
+.input-container {
+    display: flex; /* Faz com que os itens dentro se alinhem horizontalmente */
+    align-items: center; /* Alinha verticalmente no centro */
+}
+
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 25px;
+    background-color: #7c7c7c2b;
+    color: rgba(255, 255, 255, 0.996);
+    width: calc(100% - 30px);
+
+}
+
+.botao-busca {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    float: right;
+}
+
+.img-busca {
+    width: 28px;
+}
+
+.caixa-media {
+    margin-top: 20px;
+}
+
+.cidade {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.tempmax {
+    font-size: 17px;
+    color: white;
+    margin-top: 20px;
+}
+
+.tempmin {
+    font-size: 17px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texto-previsao {
+    color: white;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: white;
+    margin-top: 20px;
+    font-size: 17px;
+
+}

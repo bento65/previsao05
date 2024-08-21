@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./scripts.js"></script>
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <div class="caixa-maior">
+        <div class="input-container">
+        <input class="input-cidade" placeholder="Digite o nome da cidade">
+        <button class="botao-busca" onclick="cliqueinobotao()">
+            <img class="img-busca" src="https://www.svgrepo.com/show/488200/find.svg" alt="">
+        </button>
+    </div>
+
+        <div class="caixa-media">
+            <h2 class="cidade">Informações Meteorológicas</h2>
+            <p class="tempmax"></p>
+            <p class="tempmin"></p>
+        </div>
+
+        <div class="caixa-menor">
+            <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png">
+            <P class="texto-previsao"></P>
+        </div>
+        <p class="umidade">Umidade: </p>
+        
+        <div class="cabecalho">
+            <span class="data-hora"></span>
+            <span class="desenvolvedor"> Desenvolvedor Bento Lima</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
